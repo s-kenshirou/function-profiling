@@ -3,7 +3,7 @@
 import os
 from setuptools import Command, setup
 
-packages = []
+packages = ['function_profiling']
 for root, dirs, _ in os.walk('function_profiling', followlinks=True):
     if 'tests' in root:
         continue
