@@ -1,4 +1,4 @@
-# Function Tuning
+# Function Profiling
 
 This library is for profiling your python function.
 
